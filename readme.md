@@ -2,7 +2,7 @@
 
 * * * * * * * *
 
-Dans ce projet d'une semaine, on a developper un modèle de deep learning multi-inputs et qu'on a mit dans une application streamlit.
+Dans ce projet d'une semaine, on a developper un modèle de deep learning multi-inputs adapté dans une application streamlit.
 
 # Context du projet: 
 
