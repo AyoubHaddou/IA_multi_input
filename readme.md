@@ -36,7 +36,7 @@ A faire pour plus tard:
 - Limiter à 10 annonces par user (offre gratuite) 
 - Ajoute une API pour le modèle 
 - Déployer l'ensemble du projet
-- Faire de la data augmentation dans le modele de computer vision (et/ou utilisé un modèle pré-entrainé)
+- Faire de la data augmentation dans le modele de computer vision (et/ou utilisé un modèle pré-entrainé et faire un transfert learning)
 
 
 # Compléments: 
