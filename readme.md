@@ -34,3 +34,8 @@ A faire pour plus tard:
 - Sécuriser l'app (enregistrement de fichier)
 - Ajoute une API pour le modèle 
 - Déployer l'ensemble du projet
+
+# Pour lancer l'application en local: 
+- git pull https://github.com/AyoubHaddou/IA_multi_input
+- pip install -r requirements.txt
+- streamlit run app.py 

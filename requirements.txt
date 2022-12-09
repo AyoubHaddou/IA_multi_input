@@ -9,7 +9,6 @@ nltk==3.7
 streamlit==1.15.2
 sqlalchemy==1.4.44
 SQLAlchemy-ImageAttach==1.1.0
-
 pickle5==0.0.11
 nltk
 keras

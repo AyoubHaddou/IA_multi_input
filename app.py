@@ -31,10 +31,10 @@ class Page:
                 with st.spinner('Wait for it...'):
                     # description_process, image_process = preprocessing(description, image)
                     # category = post_api(description_process, image_process)
-                    category = prediction(description, image )
+                    category = prediction(description, img_path )
                     Product(name=name, description=description, image=image.name, category=category).save_to_db()
                 st.success('Done! Product sent successfully')
-                
+    
         if self.side_selection == "Your products":
             products = self.sess.query(Product).all()[::-1]
             self.col1.markdown("<h1 style='text-align: center; color: yellow; padding-bottom:100px; '>Product name </h1>", unsafe_allow_html=True)
@@ -42,7 +42,7 @@ class Page:
             for product in products:
                 with self.col1:
                     st.markdown(f"<h3 style='text-align: left; color: yellow; padding-bottom: 30px; padding-top: 25px;'> {product.name} </h3>", unsafe_allow_html=True)
-                    st.image(f'./models/Images/{product.image}', width=250, caption=f"{product.category}")
+                    st.image(f'upload_image/{product.image}', width=250, caption=f"{product.category}")
                     # st.write('------------------------')
                 with self.col2:
                     st.markdown(f"<p style='text-align: left; color: red; padding-top:100px; '> {product.description} </p>", unsafe_allow_html=True)
