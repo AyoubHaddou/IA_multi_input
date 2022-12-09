@@ -31,6 +31,14 @@ Afin de réaliser ce travail vous disposez d'un échantillon de données compren
 # Tache à finir: 
 
 A faire pour plus tard: 
-- Sécuriser l'app (enregistrement de fichier)
+- Sécuriser l'app 
+- Ajouter des users 
+- Limiter à 10 annonces par user (offre gratuite) 
 - Ajoute une API pour le modèle 
 - Déployer l'ensemble du projet
+- Faire de la data augmentation dans le modele de computer vision (et/ou utilisé un modèle pré-entrainé)
+
+
+# Compléments: 
+- Le modele s'est entrainé sur 1000 images. 
+- L'étude de faisabilité semble positive, avec beaucoup plus d'images on pourrait prendre d'avantage de catégories
