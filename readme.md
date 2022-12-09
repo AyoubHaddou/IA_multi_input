@@ -20,9 +20,9 @@ Votre mission est donc d'évaluer la faisabilité du projet.
 
 Vous devez étudier 3 approches :
 
-Créer un modèle basé uniquement sur le texte des descriptions
-Créer un modèle basé uniquement sur les images
-Créer un modèle qui combine les images et le texte
+- Créer un modèle basé uniquement sur le texte des descriptions
+- Créer un modèle basé uniquement sur les images
+- Créer un modèle qui combine les images et le texte
 ​
 
 Afin de réaliser ce travail vous disposez d'un échantillon de données comprenant 1050 articles avec description et images. Étant donné la nature des données, nous avons décidé de te fournir un nombre limité de données d'entraînement afin d'accélerer le temps d'entrainement. En effet, l'entreprise étant toujours une startup, elle doit maitriser ses coûts au maximum. Si votre étude de faisabilité s'avère prometeuse nous pourrons basculer sur un jeu de données bien plus volumineux.
