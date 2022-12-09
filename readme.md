@@ -1,4 +1,4 @@
-# modèle de deep learning multi-inputs
+# Modèle de deep learning multi-inputs
 
 * * * * * * * *
 
